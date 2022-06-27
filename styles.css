@@ -1,1 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+body{
+  background-color: rgb(240, 221, 228);
+}
+ .main{
+  width: 100%;
+  height: auto; 
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+ .container{
+  width:500px;
+  height: auto;
+  margin: 10px auto;
+  background-image: url(https://img.freepik.com/free-photo/3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background_1048-11333.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.head {
+   width: 100%;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color:rgb(189, 8, 39);
+} 
+.head h3{
+  font-size: 28px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  color:white;
+}
+.main-box{
+  width: 320px;
+  height:auto;
+  display: grid;
+  grid-template-rows: repeat(3,8vw);
+  grid-template-columns: repeat(3,8vw); 
+}
+.line{
+    background-color: black;
+    height: 3px;
+    width: 0;
+    position: absolute;
+    background-color: orange;
+    transition: width 1s ease-in-out;
+}
+.box{
+  border: 2px solid rgb(29, 1, 6);;
+  font-size: 5vw;
+  cursor: pointer;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-color:rgb(190, 9, 39); 
+  color: white;
+} 
+#reset{
+   width: 200px;
+   height: 50px;
+   background-color:rgb(189, 8, 39);
+   color: white;
+   cursor: pointer;
+   border: none;
+   font-size: 20px;
+  font-weight: bold;
+}
+#reset:hover{
+  background-color: rgb(212, 49, 76);
+}
+.gif img{
+  margin-right: 60px;
+  width: 0;
+  transition: width 1s ease-in-out;
+}
+.info{
+   font-size: 25px;
+   font-weight: bold;
+   color: white;
+}
+.box:hover{
+  background-color:rgb(209, 69, 93);
+}
+
+
+
+
 
