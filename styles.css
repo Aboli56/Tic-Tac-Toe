@@ -64,7 +64,7 @@ body{
   justify-content: center;
   align-items: center; 
   background-color:rgb(121, 136, 165);
-  color: white;
+  color: black;
 } 
 #reset{
    width: 200px;
