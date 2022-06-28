@@ -24,6 +24,7 @@ body{
   justify-content: center;
   align-items: center;
   position: absolute;
+  border-radius:25px;
 }
 .head {
    width: 100%;
